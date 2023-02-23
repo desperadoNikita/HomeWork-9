@@ -55,10 +55,10 @@ const workers = [
   ];
 
   const workers2 = [...workers, ...workers1];
-  console.log('workers2 :>> ', workers2);
+  console.log(workers2);
 
 
-  function middleSalary(workers) {
+  function averageSalary(workers) {
     const salarys = [];
     let total  = 0;
     for (const worker of workers) {
@@ -73,16 +73,16 @@ const workers = [
     
 }
 
-const result = middleSalary(workers);
+const result = averageSalary(workers);
 
 console.log(result);
 
 const arr = [1, 2, 3, 4, 5, 6];
 
-const [a, b, c, d, i, e] = arr;
+const [a, b, c, d, e, f] = arr;
 console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
-console.log(i);
 console.log(e);
+console.log(f);
